@@ -1,0 +1,18 @@
+composer:
+  last: Hofmann
+  first: Leopold
+title: Sub tuum præsidium
+genre: mitet
+scoring: S, A, T (solo), S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.22468
+    rism: 600117489
+    url: https://data.onb.ac.at/rec/AC14273912
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
