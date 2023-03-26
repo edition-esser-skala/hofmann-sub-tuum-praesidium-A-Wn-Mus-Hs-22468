@@ -3,7 +3,7 @@ composer:
   first: Leopold
 title: Sub tuum præsidium
 genre: mitet
-scoring: S, A, T (solo), S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, b, org
+scoring: S, A, T (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -15,4 +15,4 @@ sources:
     principal: true
 imslp:
 parts:
-  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+  ottoni: Clarino I, II in C\\Timpani in C–G

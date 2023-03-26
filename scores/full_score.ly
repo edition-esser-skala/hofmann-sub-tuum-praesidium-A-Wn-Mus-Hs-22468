@@ -6,20 +6,18 @@
 \book {
   \bookpart {
     \section "Sub tuum præsidium"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
-            % \transpose c b,
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine #'(0 . 10) \SubClarinoI \SubClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimp "B" "flat" "F" ""
-          % \transpose c b,
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
           \SubTimpani
         }
         \new StaffGroup <<
@@ -70,7 +68,7 @@
         \new FiguredBass { \SubBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4. = 50 }
     }
   }
 }
